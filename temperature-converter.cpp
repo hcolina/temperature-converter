@@ -9,5 +9,5 @@ int main() {
 
     tempc = (tempf - 32) / 1.8;
 
-    std::cout <<
+    std::cout << "The temp is " << tempc << " degrees Celcius.\n";
 }
