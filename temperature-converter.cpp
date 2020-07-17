@@ -7,5 +7,5 @@ int main() {
     std::cout << "Enter the temperature in Fahrenheit: ";
     std::cin >> tempf;
 
-    tempc = 
+    tempc = (tempf - 32) / 1.8;
 }
