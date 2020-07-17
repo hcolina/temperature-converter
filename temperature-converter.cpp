@@ -8,4 +8,6 @@ int main() {
     std::cin >> tempf;
 
     tempc = (tempf - 32) / 1.8;
+
+    std::cout <<
 }
