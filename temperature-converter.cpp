@@ -2,5 +2,5 @@
 
 int main() {
     double tempf;
-    double
+    double tempc;
 }
