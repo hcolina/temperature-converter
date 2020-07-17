@@ -4,5 +4,5 @@ int main() {
     double tempf;
     double tempc;
 
-    std::cout <<
+    std::cout << "Enter the temperature in Fahrenheit: ";
 }
