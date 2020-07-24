@@ -12,7 +12,7 @@ window.title("Temperature Converter")
 window.resizable(width=False, height=False)
 
 #Fahrenheit entry frame with an Entry widget and label
-frm-entry = tk.Frame(master=window)
+frm_entry = tk.Frame(master=window)
 ent_temperature = tk.Entry(master=frm_entry, width=10)
 lbl_temp = tk.Label(master=frm_entry, text="\N{DEGREE FAHRENHEIT}")
 
@@ -24,7 +24,7 @@ lbl_temp.grid(row=0, column=1, sticky="w")
 btn_convert = tk.Button(
     master=window,
     text="\N{RIGHTWARDS BLACK ARROW}"
-    command = fahrenheit_to_celsius
+    command=fahrenheit_to_celsius
 )
 lbl_result = tk.Label(master=window,text="\N{DEGREE CELSIUS}")
 
