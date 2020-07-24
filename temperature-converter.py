@@ -13,5 +13,5 @@ window.resizable(width=False, height=False)
 
 frm-entry = tk.Frame(master=window)
 ent_temperature = tk.Entry(master=frm_entry, width=10)
-lbl_tepm = 
+lbl_tepm = tk.Label()
 
