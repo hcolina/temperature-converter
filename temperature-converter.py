@@ -23,7 +23,7 @@ lbl_temp.grid(row=0, column=1, sticky="w")
 #Creates the conversion Button and the result display Label
 btn_convert = tk.Button(
     master=window,
-    text="\N{RIGHTWARDS BLACK ARROW}"
+    text="\N{RIGHTWARDS BLACK ARROW}",
     command=fahrenheit_to_celsius
 )
 lbl_result = tk.Label(master=window,text="\N{DEGREE CELSIUS}")
