@@ -28,4 +28,4 @@ btn_convert = tk.Button(
 )
 lbl_result = tk.Label(master=window,text="\N{DEGREE CELSIUS}")
 
-frm_entry.grid(row=0, column=0)
+frm_entry.grid(row=0, column=0, padx=0)
