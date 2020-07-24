@@ -20,6 +20,7 @@ lbl_temp = tk.Label(master=frm_entry, text="\N{DEGREE FAHRENHEIT}")
 ent_temperature.grid(row=0, column=0, sticky="e")
 lbl_temp.grid(row=0, column=1, sticky="w")
 
+#Creates the conversion Button and the result display Label
 btn_convert = tk.Button(
     master=window,
     text="\N{RIGHTWARDS BLACK ARROW}"
