@@ -22,6 +22,6 @@ lbl_temp.grid(row=0, column=1, sticky="w")
 
 btn_convert = tk.Button(
     master=window,
-    text=
+    text="\N{RIGHTWARDS BLACK ARROW}"
 
 )
