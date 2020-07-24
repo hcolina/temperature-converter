@@ -7,3 +7,4 @@ def fahrenheit_to_celcius():
 
 window = tk.Tk()
 window.title("Temperature Converter")
+window.resizable()
