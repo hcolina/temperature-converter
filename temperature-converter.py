@@ -6,3 +6,4 @@ def fahrenheit_to_celcius():
     lbl_result["text"] = f"{round(celsius, 2)} \N {DEGREE CELSIUS}"
 
 window = tk.Tk()
+window.title()
