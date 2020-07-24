@@ -1,6 +1,6 @@
 import tkinter as tk
 
-def fahrenheit_to_celcius():
+def fahrenheit_to_celsius():
     #this function converts F>C
     fahrenheit = ent_temperature.get()
     celsius = (5/9) * (float(fahrenheit) - 32)
