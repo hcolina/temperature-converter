@@ -12,5 +12,5 @@ window.title("Temperature Converter")
 window.resizable(width=False, height=False)
 
 frm-entry = tk.Frame(master=window)
-ent_temperature = tk.Entry()
+ent_temperature = tk.Entry(master=frm_entry,)
 
