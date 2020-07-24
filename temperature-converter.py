@@ -4,7 +4,7 @@ def fahrenheit_to_celsius():
     #this function converts F>C
     fahrenheit = ent_temperature.get()
     celsius = (5/9) * (float(fahrenheit) - 32)
-    lbl_result["text"] = f"{round(celsius, 2)} \N {DEGREE CELSIUS}"
+    lbl_result["text"] = f"{round(celsius, 2)} \N{DEGREE CELSIUS}"
 
 #window set-up
 window = tk.Tk()
