@@ -11,3 +11,5 @@ window = tk.Tk()
 window.title("Temperature Converter")
 window.resizable(width=False, height=False)
 
+frm-entry = 
+
