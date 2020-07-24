@@ -16,6 +16,7 @@ frm-entry = tk.Frame(master=window)
 ent_temperature = tk.Entry(master=frm_entry, width=10)
 lbl_temp = tk.Label(master=frm_entry, text="\N{DEGREE FAHRENHEIT}")
 
+#Use .grid() geometry manager to layout the temperature Entry and Label in frm_entry
 ent_temperature.grid(row=0, column=0, sticky="e")
 lbl_temp.grid(row=0, column=1, sticky="w")
 
