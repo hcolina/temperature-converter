@@ -25,4 +25,4 @@ btn_convert = tk.Button(
     text="\N{RIGHTWARDS BLACK ARROW}"
     command = fahrenheit_to_celsius
 )
-lbl_result = tk.Label(master=window,)
+lbl_result = tk.Label(master=window,text=)
