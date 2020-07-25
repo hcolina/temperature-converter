@@ -1,1 +1,1 @@
-A temperature converter which takes user input and changes values from Fahrenheit to Celsius
+A temperature converter with a graphical user interface (GUI) through Tkinter which takes user input and changes values from Fahrenheit to Celsius. 
